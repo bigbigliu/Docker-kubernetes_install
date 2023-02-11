@@ -5,7 +5,7 @@
 # 1.安装docker
 
 ## 1.运行docker_install.sh
-
+![1676120753638](install_file/docker/install-docker.sh)
 ```bash
 # install docker
 curl -fsSL get.docker.com -o get-docker.sh
@@ -60,7 +60,7 @@ sudo systemctl restart docker
 docker info
 ```
 
-![1676120753638](image/insstall/1676120753638.png)
+![1676120753638](image/install/1676120753638.png)
 
 ---
 
