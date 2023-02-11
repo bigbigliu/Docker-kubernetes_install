@@ -9,8 +9,8 @@
 ```bash
 sh install-docker.sh
 ```
-[install-docker.sh](install_file/docker/install-docker.sh)
 
+[install-docker.sh](install_file/docker/install-docker.sh)
 
 ## 2.配置docker镜像加速器
 
@@ -53,3 +53,7 @@ docker info
 ---
 
 # 2.安装Kubernetes
+
+## 1. cri-dockerd(kebernetes容器运行时)安装
+
+官方文档说明: [https://kubernetes.io/docs/setup/production-environment/container-runtimes/](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
