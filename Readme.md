@@ -6,6 +6,9 @@
 
 ## 1.运行docker_install.sh
 
+```bash
+sh install-docker.sh
+```
 [install-docker.sh](install_file/docker/install-docker.sh)
 
 
