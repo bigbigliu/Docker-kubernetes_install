@@ -5,24 +5,9 @@
 # 1.安装docker
 
 ## 1.运行docker_install.sh
-![1676120753638](install_file/docker/install-docker.sh)
-```bash
-# install docker
-curl -fsSL get.docker.com -o get-docker.sh
-sh get-docker.sh
 
-if [ ! $(getent group docker) ];
-then
-    sudo groupadd docker;
-else
-    echo "docker user group already exists"
-fi
+[install-docker.sh](install_file/docker/install-docker.sh)
 
-sudo gpasswd -a $USER docker
-sudo service docker restart
-
-rm -rf get-docker.sh
-```
 
 ## 2.配置docker镜像加速器
 
