@@ -57,3 +57,6 @@ docker info
 ## 1. cri-dockerd(kebernetes容器运行时)安装
 
 官方文档说明: [https://kubernetes.io/docs/setup/production-environment/container-runtimes/](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
+cri-dockerd仓库: [https://github.com/Mirantis/cri-dockerd](https://github.com/Mirantis/cri-dockerd/)
+
+
